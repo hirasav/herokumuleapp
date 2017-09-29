@@ -1,1 +1,1 @@
-web: java -Dhttp.port=$PORT -Dspring.profiles.active=prod -jar target/herokumuleapp-1.0.0-SNAPSHOT.jar src.main.java.herokumuleapp
+web: java -Dhttp.port=$PORT -Dspring.profiles.active=prod -jar target/herokumuleapp-1.0.0-SNAPSHOT.jar
