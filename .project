@@ -1,6 +1,6 @@
 <projectDescription>
   <name>herokumuleapp</name>
-  <comment/>
+  <comment>Spring Boot Starter Parent</comment>
   <projects/>
   <buildSpec>
     <buildCommand>
