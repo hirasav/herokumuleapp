@@ -9,7 +9,7 @@
 http://www.mulesoft.org/schema/mule/vm http://www.mulesoft.org/schema/mule/vm/current/mule-vm.xsd
 http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
 http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
-    <http:listener-config name="httpConfig" host="0.0.0.0" port="8081" doc:name="HTTP Listener Configuration"/>
+    <http:listener-config name="httpConfig" host="0.0.0.0" port="${http.port}"  doc:name="HTTP Listener Configuration"/>
 
  <flow name="main">
        <vm:inbound-endpoint path="in" doc:name="VM"/>
